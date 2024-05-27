@@ -1,0 +1,291 @@
+@prefix : <http://example.org/efthymiadisKonstantinos/project#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+
+:ObservationShape
+	a sh:NodeShape ;
+	sh:targetClass sosa:Observation ;
+
+	sh:property [ 	#The Observation must have one FeatureOfInterest
+		sh:path sosa:hasFeatureOfInterest ;
+		sh:maxCount 1;
+		sh:minCount 1;
+	] ;
+
+	sh:property [ 	#The Observation must have one ObservableProperty
+		sh:path sosa:observedProperty ;
+		sh:maxCount 1;
+		sh:minCount 1;
+	] ;
+
+	sh:property [ 	#The Observation must have one Sensor
+		sh:path sosa:madeBySensor ;
+		sh:maxCount 1;
+		sh:minCount 1;
+	] ;
+.
+
+:BodyHeightObservationShape
+	a sh:NodeShape;
+	sh:targetClass :BodyHeightObservation;
+
+	sh:property [	#The BodyHeightObservation must have one result time
+		sh:path sosa:resultTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The BodyHeightObservation must not have any value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The BodyHeightObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The BodyHeightObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:BodyWeightObservationShape
+	a sh:NodeShape;
+	sh:targetClass :BodyWeightObservation;
+
+	sh:property [	#The BodyWeightObservation must have one result time
+		sh:path sosa:resultTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The BodyWeightObservation must not have any value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The BodyWeightObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The BodyWeightObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:CaloriesBurnedObservationShape
+	a sh:NodeShape;
+	sh:targetClass :CaloriesBurnedObservation;
+
+	sh:property [	#The CaloriesBurnedObservation must not have any value for the result time
+		sh:path sosa:resultTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The CaloriesBurnedObservation must have one value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The CaloriesBurnedObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The CaloriesBurnedObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:GeopositionObservationShape
+	a sh:NodeShape;
+	sh:targetClass :GeopositionObservation;
+
+	sh:property [	#The GeopositionObservation must have one result time
+		sh:path sosa:resultTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The GeopositionObservation must not have any value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The GeopositionObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The GeopositionObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:HeartRateObservationShape
+	a sh:NodeShape;
+	sh:targetClass :HeartRateObservation;
+
+	sh:property [	#The HeartRateObservation must have one result time
+		sh:path sosa:resultTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The HeartRateObservation must not have any value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The HeartRateObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The HeartRateObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:PhysicalActivityObservationShape
+	a sh:NodeShape;
+	sh:targetClass :PhysicalActivityObservation;
+
+	sh:property [	#The PhysicalActivityObservation must not have any value for the result time
+		sh:path sosa:resultTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The PhysicalActivityObservation must have one value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The PhysicalActivityObservation must not have any value for the Result
+		sh:path sosa:hasResult;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The PhysicalActivityObservation must have one string for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+		sh:datatype xsd:string;
+	] ;
+.
+
+:SpeedObservationShape
+	a sh:NodeShape;
+	sh:targetClass :SpeedObservation;
+
+	sh:property [	#The SpeedObservation must have one result time
+		sh:path sosa:resultTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The SpeedObservation must not have any value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The SpeedObservation must have one Result
+		sh:path sosa:hasResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The SpeedObservation must not have any value for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:maxCount 0;
+	] ;
+.
+
+:StepCountObservationShape
+	a sh:NodeShape;
+	sh:targetClass :StepCountObservation;
+
+	sh:property [	#The StepCountObservation must not have any value for the result time
+		sh:path sosa:resultTime;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The StepCountObservation must have one value for the phenomenonTime
+		sh:path sosa:phenomenonTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+	] ;
+
+	sh:property [	#The StepCountObservation must not have any value for the Result
+		sh:path sosa:hasResult;
+		sh:maxCount 0;
+	] ;
+
+	sh:property [	#The StepCountObservation must have one long number for the simple result
+		sh:path sosa:hasSimpleResult;
+		sh:minCount 1;
+		sh:maxCount 1;
+		sh:datatype xsd:long;
+	] ;
+.
+
+:SensorShape
+	a sh:NodeShape;
+	sh:targetClass sosa:Sensor;
+
+	sh:property [	#The Sensor can have at most, only one Platform
+		sh:path sosa:isHostedBy;
+		sh:maxCount 1;
+	] ;
+.
+
+:TimeInstantShape
+	a sh:NodeShape;
+	sh:targetClass time:Instant;
+	
+	sh:property [
+		sh:path time:inXSDDateTime;
+		sh:minCount 1;
+		sh:maxCount 1;
+		sh:datatype xsd:dateTime;
+	];
+.
+
+:TimeIntervalShape
+	a sh:NodeShape;
+	sh:targetClass time:Interval;
+	
+	sh:property [
+		sh:path time:hasBeginning;
+		sh:minCount 1;
+		sh:maxCount 1;
+	];
+
+	sh:property [
+		sh:path time:hasEnd;
+		sh:minCount 1;
+		sh:maxCount 1;
+	];
+.
+
+
