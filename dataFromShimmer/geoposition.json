@@ -1,0 +1,99 @@
+{
+    "shim": "googlefit",
+    "timeStamp": 1713010539,
+    "body": [
+        {
+            "header": {
+                "id": "9f47c0ea-fe9a-482f-94a3-aa395c0eb2cc",
+                "creation_date_time": "2024-04-13T11:59:26.616Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.location.sample:com.google.android.gms:live_location"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "geoposition",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-05T10:05:08Z"
+                },
+                "latitude": {
+                    "value": 40.631035,
+                    "unit": "deg"
+                },
+                "longitude": {
+                    "value": 22.956586,
+                    "unit": "deg"
+                },
+                "positioning_system": "GPS"
+            }
+        },
+        {
+            "header": {
+                "id": "402a2c7f-4465-448a-b340-cd710ec960b4",
+                "creation_date_time": "2024-04-13T11:59:26.616Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.location.sample:com.google.android.gms:live_location"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "geoposition",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-30T18:25:42Z"
+                },
+                "latitude": {
+                    "value": 40.626398,
+                    "unit": "deg"
+                },
+                "longitude": {
+                    "value": 22.95250,
+                    "unit": "deg"
+                },
+                "positioning_system": "GPS"
+            }
+        },
+        {
+            "header": {
+                "id": "90579e81-96cb-4299-a679-e1f4b9788de0",
+                "creation_date_time": "2024-04-13T11:59:26.616Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.location.sample:com.google.android.gms:live_location"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "geoposition",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-01T13:17:55Z"
+                },
+                "latitude": {
+                    "value": 40.596607,
+                    "unit": "deg"
+                },
+                "longitude": {
+                    "value": 22.951072,
+                    "unit": "deg"
+                },
+                "positioning_system": "GPS"
+            }
+        }
+    ]
+}
+
+
+

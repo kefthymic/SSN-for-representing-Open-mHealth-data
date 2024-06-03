@@ -1,0 +1,777 @@
+{
+    "shim": "googlefit",
+    "timeStamp": 1715730925,
+    "body": [
+        {
+            "header": {
+                "id": "842deec5-452b-43f9-bf83-b7eabd89ead5",
+                "creation_date_time": "2024-05-14T23:55:25.857Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T07:01:51.727Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "fdc54d68-c87a-4f23-8e03-56fd8303aa53",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T07:02:28.802Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "a3995289-2f30-46b4-913a-da9a8530f3d1",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T07:06:23.624Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "f45c8ad3-2671-4ffb-8782-7f050d04a39b",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T10:12:26.530Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "fb855d04-a21b-42d1-8dbb-e7ecf29d12a3",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T10:17:07.769Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "5810a030-959d-4e31-8984-d3e7ff08f70e",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T12:05:18.095Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "b536be6f-7568-4998-9b8b-82ae0d0ca70f",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T14:55:05.462Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "e9644825-5945-42e5-be31-231844748d90",
+                "creation_date_time": "2024-05-14T23:55:25.859Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-21T18:00:18.263Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "4cb028a4-4011-449a-b053-fd8576d60d74",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-22T12:28:43.335Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "8459d92b-5d98-4368-97c2-147e0c616f86",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-23T13:37:09.852Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "a755ed85-d1d7-485b-affa-12f569b50375",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-25T11:16:19.652Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "8bdb723f-1df7-41f9-91ba-e1479c475757",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-26T17:56:34.251Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "d20ea7fb-321d-485a-b332-720ba32f5218",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-27T15:45:03.679Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "c62dd677-9078-4805-9d6e-e4a8e32a8584",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-27T17:21:22.780Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "49d5120e-af76-4485-b844-4afdda536e30",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-27T18:23:46.328Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "c3a6f20b-1845-4b01-bfb0-5e289784860e",
+                "creation_date_time": "2024-05-14T23:55:25.860Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-28T15:04:19.406Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "a6ed2555-e716-450f-82d2-4432ea2aa765",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-28T20:39:18.488Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "8fd61781-8c0c-4756-b73f-c27de1664cf7",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-29T11:23:33.836Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "169ba1c3-ccaf-4603-a733-9af70f10eebf",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-03-30T20:13:23.653Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "11159598-a860-47ab-9ac4-c8721959162a",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-02T12:34:48.640Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "b850299a-6be9-496e-9311-a2f0ba77d1f3",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-02T14:32:11.589Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "d4b5c604-699d-442d-a096-45ceac5a547b",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-03T16:17:57.536Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "3bdc0662-ba99-44be-ae04-4b5afaf817f9",
+                "creation_date_time": "2024-05-14T23:55:25.861Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-04T10:34:50.901Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "2fac290a-485c-40b5-8617-ce99e8c77aab",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-04T20:10:18.267Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "772107da-766f-442c-ab5e-a775793183a3",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-05T16:58:56.433Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "c168a097-65df-4a6b-9853-5b2a142c9069",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-05T20:58:26.538Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "05880a22-be40-4289-806b-514dd1e22466",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-06T18:26:13.415Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "22a16e47-1ed1-49f1-8214-e60da14e8934",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-06T20:02:04.317Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "f3779ba7-83e7-4e89-9556-972e8f529992",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-07T18:36:04.583Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 85.0
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "0ed60f5c-717b-4f9a-af02-0a32674db83e",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-10T15:28:53.075Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 83.5
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "c12867d9-dfc1-403f-8678-fc1475c23398",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "source_origin_id": "raw:com.google.weight:com.veryfit2hr.second:VeryFitPro - step count"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-11T10:36:37.813Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 83.5
+                }
+            }
+        },
+        {
+            "header": {
+                "id": "e03f7a76-3fd5-4056-af29-8af82a68b403",
+                "creation_date_time": "2024-05-14T23:55:25.862Z",
+                "acquisition_provenance": {
+                    "source_name": "Google Fit API",
+                    "modality": "self-reported",
+                    "source_origin_id": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+                },
+                "schema_id": {
+                    "namespace": "omh",
+                    "name": "body-weight",
+                    "version": "1.0"
+                }
+            },
+            "body": {
+                "effective_time_frame": {
+                    "date_time": "2024-04-13T15:07:00Z"
+                },
+                "body_weight": {
+                    "unit": "kg",
+                    "value": 83.5
+                }
+            }
+        }
+    ]
+}
